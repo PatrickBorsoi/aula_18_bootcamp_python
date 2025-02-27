@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-class PokemonShame(BaseModel): # Contrato de dados, Schema de dados, View da API
+class PokemonSchame(BaseModel): # Contrato de dados, Schema de dados, View da API
     name: str
     type: str
 
